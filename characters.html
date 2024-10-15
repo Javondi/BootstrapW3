@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="characters.html">Characters</a>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+ <!--TODO Bootstrap grid used throughout to format elements -->
+
+  
+
+      <!-- bootstrap grid - begin -->
+      <div class="container text-center">
+        <div class="row m-2 ">
+          <div class="col m-2 ">
+        
+          </div>
+          <!-- col-6 takes 6/12 columns in a  row
+          m-2 gives a margin of 2 https://getbootstrap.com/docs/5.3/utilities/spacing/
+          border allows you to view a border on the elemnt with bootstrap
+          -->
+          <div class="col-6 m-2 border border-info">
+<!-- custom table - begin -->
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col "></th>
+        <th scope="col">Super Hero</th>
+        <th scope="col">Needs a Sidekick</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>SpiderMan</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Batman</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>IronMan</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Avengers</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+<!-- custom table -end -->
+
+          </div>
+          <div class="col">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col-5">
+
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+       <!-- bootstrap grid - end -->
+
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
